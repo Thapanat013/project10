@@ -1,9 +1,9 @@
-@extends('layouts.master_authem')
+@extends('layouts.master_authen')
 @section('content')
 <div class="limiter">
     <div class="container-login100">
         <div class="wrap-login100">
-            <div class="login100-form-title" style="background-image: url(authem/images/bg-01.jpg);">
+            <div class="login100-form-title" style="background-image: url(authen/images/bg-01.jpg);">
                 <span class="login100-form-title-1">
                     Reset Password
                 </span>
