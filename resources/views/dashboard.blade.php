@@ -1,78 +1,46 @@
 @extends('layouts.master_backend')
 @section('content')
-<!-- Content Start -->
-<div class="content">
-    <!-- Navbar Start -->
-    </nav>
-    <!-- Navbar End -->
-
-
-    <!-- Sale & Revenue Start -->
-    <div class="row">
-            <div class="col-xl-3 col-sm-6 grid-margin stretch-card" >
-              <div class="card">
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col-9" >
-                      <div class="d-flex align-items-center align-self-start" >
-                        <h3 class="card-title mb-2">{{ $u->count() }}</h3>
-                        <p class="text-warning ml-2 mb-0 font-weight-medium">คน</p>
-                      </div>
-                    </div>
-                    <div class="col-3">
-                      <div class="icon icon-box-danger ">
-                        <span class="mdi mdi-account"></span>
-                      </div>
-                    </div>
-                  </div>
-                  <h6 class="text-muted font-weight-normal">User</h6>
+<!-- Sale & Revenue Start -->
+<div class="
+container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col-sm-6 col-xl-3">
+            <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                <i class="fa fa-chart-line fa-3x text-primary"></i>
+                <div class="ms-3">
+                    <p class="mb-2">Today Sale</p>
+                    <h6 class="mb-0">$1234</h6>
                 </div>
-              </div>
             </div>
-            <div class="col-xl-3 col-sm-6 grid-margin stretch-card">
-              <div class="card">
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col-9">
-                      <div class="d-flex align-items-center align-self-start">
-                        <h3 class="card-title mb-2">{{ $c->count() }}</h3>
-                        <p class="text-warning ml-2 mb-0 font-weight-medium">ประเภท</p>
-                      </div>
-                    </div>
-                    <div class="col-3">
-                      <div class="icon icon-box-danger">
-                        <span class="mdi mdi-table-large"></span>
-                      </div>
-                    </div>
-                  </div>
-                  <h6 class="text-muted font-weight-normal">Category</h6>
+        </div>
+        <div class="col-sm-6 col-xl-3">
+            <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                <i class="fa fa-chart-bar fa-3x text-primary"></i>
+                <div class="ms-3">
+                    <p class="mb-2">Total Sale</p>
+                    <h6 class="mb-0">$1234</h6>
                 </div>
-              </div>
             </div>
-            <div class="col-xl-3 col-sm-6 grid-margin stretch-card">
-              <div class="card">
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col-9">
-                      <div class="d-flex align-items-center align-self-start">
-                        <h3 class="card-title mb-2">{{ $p->count() }}</h3>
-                        <p class="text-warning ml-2 mb-0 font-weight-medium">เมนู</p>
-                      </div>
-                    </div>
-                    <div class="col-3">
-                      <div class="icon icon-box-danger">
-                        <span class="mdi mdi-format-list-bulleted-type"></span>
-                      </div>
-                    </div>
-                  </div>
-                  <h6 class="text-muted font-weight-normal">Product</h6>
+        </div>
+        <div class="col-sm-6 col-xl-3">
+            <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                <i class="fa fa-chart-area fa-3x text-primary"></i>
+                <div class="ms-3">
+                    <p class="mb-2">Today Revenue</p>
+                    <h6 class="mb-0">$1234</h6>
                 </div>
-              </div>
             </div>
-
-          </div>
-
-      </div>
-    <!-- Sale & Revenue End -->
-<!-- Content End -->
-@endsection 
+        </div>
+        <div class="col-sm-6 col-xl-3">
+            <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                <i class="fa fa-chart-pie fa-3x text-primary"></i>
+                <div class="ms-3">
+                    <p class="mb-2">Total Revenue</p>
+                    <h6 class="mb-0">$1234</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Sale & Revenue End -->
+@endsection
