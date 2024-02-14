@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>MEEKHWAMSOOK MILK TEA</title>    
+        <title>ก๋วยเตี๋ยวหมูตุ๋น</title>    
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
